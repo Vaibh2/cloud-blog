@@ -1,0 +1,40 @@
+.creative-box {
+  /* Centering Techniques (Choose One) */
+  /* Option 1: Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px; /* Optional: Set a minimum height */
+
+  /* Option 2: Grid */
+  /* display: grid;
+  place-items: center;
+  min-height: 200px;  */
+
+  /* Option 3: Absolute Positioning */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 200px;  */
+
+  /* Background and Border */
+  background-color: #82ff9b;
+  border: 1px solid #1ba88c;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+
+  /* Creative Text Styling (Optional) */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5; /* Adjust line spacing for readability */
+
+  /* Optional: Add hover effect */
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
